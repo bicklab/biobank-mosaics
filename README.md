@@ -39,14 +39,6 @@ Candidate mosaics identified this way are then evaluated against alternative exp
 heterozygous variant VAF, complete blood counts, and co-occurring somatic CHIP mutations).
 Those checks rely on cohort-specific clinical tables and are described in the manuscript Methods.
 
-## Requirements
-
-Python 3.9+ with `numpy`, `pandas`, `scipy`, `matplotlib`, and `statsmodels`:
-
-```
-pip install numpy pandas scipy matplotlib statsmodels
-```
-
 ## Data availability
 
 Individual-level biobank data is access-controlled and is **not** included here. The
