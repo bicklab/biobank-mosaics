@@ -15,7 +15,7 @@ intervals.
 
 ## Inputs
 
-CHIP call sets are generated upstream with the Mutect2 + ANNOVAR pipeline of
+CHIP call sets are generated upstream with the Mutect2 (Source: https://dockstore.org/workflows/github.com/broadinstitute/gatk/mutect2:4.1.8.1) + ANNOVAR (Workflow Description Language) pipeline of
 Vlasschaert et al., *Blood* 2023 (https://doi.org/10.1182/blood.2022018825), run across
 canonical CHIP driver genes. The binomial germline filter is deliberately **omitted** so that
 genuine mosaic variants near 50% VAF are retained rather than discarded as germline.
