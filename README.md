@@ -2,7 +2,7 @@
 
 This repository contains the analysis code used to identify putative embryonic mosaic
 individuals for canonical clonal hematopoiesis (CHIP) driver genes (e.g. *DNMT3A*, *TET2*)
-from large biobank whole-genome sequencing data.
+from large biobank short-read whole-genome sequencing data.
 
 ## Rationale
 
@@ -12,13 +12,6 @@ age-related clonal hematopoiesis. Such individuals are candidate embryonic mosai
 takes per-cohort CHIP call sets, harmonizes them, classifies putative mosaics by age and VAF,
 plots the age–VAF relationship, and estimates prevalence with exact binomial confidence
 intervals.
-
-## Contents
-
-- `mosaic_detection_example.ipynb` — a self-contained, runnable example of the full pipeline
-  on **synthetic data** (no real participant data). It demonstrates the schema harmonization,
-  mosaic classification, plotting, and prevalence estimation exactly as applied to the real
-  biobank data.
 
 ## Inputs
 
@@ -44,8 +37,3 @@ Those checks rely on cohort-specific clinical tables and are described in the ma
 Individual-level biobank data is access-controlled and is **not** included here. The
 *All of Us* Research Program and Vanderbilt's BioVU each govern access through their own data
 use agreements. Only the analysis code and synthetic example data are shared in this repository.
-
-## Citation
-
-If you use this code, please cite the associated manuscript and the CHIP calling method of
-Vlasschaert et al., *Blood* 2023.
